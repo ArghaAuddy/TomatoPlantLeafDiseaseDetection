@@ -1,0 +1,52 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files & large binaries
+*.h5
+*.hdf5
+*.pb
+*.tflite
+*.onnx
+*.pth
+*.pt
+model/
+results/
+
+# Dataset (too large for GitHub)
+data/
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+
+# Logs & outputs
+*.log
+logs/
+events.out.tfevents.*
+wandb/
+mlruns/
+
+# System / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Python packaging
+*.egg-info/
+dist/
+build/
