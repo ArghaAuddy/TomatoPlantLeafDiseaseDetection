@@ -9,7 +9,7 @@ import os
 st.set_page_config(page_title="Tomato Leaf Disease Detector", layout="centered")
 
 # Load model
-MODEL_PATH = os.path.join("model", "tomato_disease_detector.h5")
+MODEL_PATH = os.path.join("model", "tomato_disease_detector_finetuned.h5")
 model = load_model(MODEL_PATH)
 
 # Class labels (modify if needed)

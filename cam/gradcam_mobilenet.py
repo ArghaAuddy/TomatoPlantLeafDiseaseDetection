@@ -14,7 +14,7 @@ img_size = (224, 224)
 
 # -----------------------------
 # Preprocess Image
-# -----------------------------
+# ----------------------------
 def preprocess_image(img_path, size):
     img = image.load_img(img_path, target_size=size)
     img_array = image.img_to_array(img)
